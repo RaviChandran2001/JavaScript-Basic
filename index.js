@@ -19,7 +19,7 @@ let personalData = {
 }
 
 // using Dot Notation
-personalData.name = "Rajan"
+personalData.name = "Ravi"
 console.log(personalData.name);
 
 // using Bracket Notation
@@ -28,7 +28,7 @@ console.log(personalData.age);
 
 // nested object
 let personalInfo = {
-   name : "Prasanna",
+   name : "Ravi",
    address : {
        state : 'Tamil Nadu',
        district :'Cuddalore',
@@ -50,7 +50,7 @@ console.log('We are defining array length here -',colors.length);
 function greet(firstName,lastName) {
    console.log('Hello '+firstName+' '+lastName);
 }
-greet('Prasanna')
+greet('Ravi')
 
 // calculating a Value
 function doubleTheValue(numberIs){
@@ -144,7 +144,7 @@ function Operator(params) {
 
 Operator(10)
 
-Objects
+// Objects
 
 
 // Oop (Object Orientde Programming)
@@ -170,7 +170,7 @@ function createCircle(radius){
         radius,
         isVisible :true,
         graw:function(){
-            console.log(this.radius);
+            console.log('draw');
         }
     }
 }
@@ -188,8 +188,7 @@ function createCircle1 (radius){
 
 const circle2 = new createCircle1(1)
 
-
-//Nature of Object
+// Nature of Object
 
 const circles ={
     radius : 1
@@ -199,3 +198,11 @@ circle.color = "red"
 delete circle.color
 
 console.log(circles);
+
+// Create string using new
+let strs =  new String('hello')
+
+let obj = new Object({name:"ravi"})
+console.log(typeof strs);
+
+
