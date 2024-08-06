@@ -69,8 +69,44 @@ function checkSpeed(speed){
             console.log("Licence suspended");
          }
     }
-     
-
-
 }
+
+function showStart(rows) {
+    for (let i = 1; i <= rows; i++) {
+        pattren = ""
+        for(let j=0; j <= i;j++){
+            pattren += "*"
+        }
+        console.log(pattren);
+       
+    }
+}
+ 
+function showStart(rows) {
+    for (let i = 0; i <= rows; i++) {
+        pattren = ""
+        for(let j=rows; j > i; j--){
+            pattren += "*"
+        }
+        console.log(pattren);
+    }
+}
+ 
+function showStart(rows){
+    for (let i = 1; i <= rows; i++) {
+        star = "*"
+       
+        for(let k=1; k <= 4-i; k++ ){
+            pattern += " "
+           
+        }
+        for (let l = 1; l < i1; l++) {
+            pattern += "*"
+        }
+       console.log(pattern);
+       
+    }
+}
+ 
+
 
